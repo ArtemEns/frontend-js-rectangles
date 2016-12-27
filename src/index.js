@@ -27,8 +27,6 @@ var intersected = areIntersected({
     height: 25
     });
 
-console.log(intersected)
-
 
 function filterVisible(rect, arrOfRect) {
     var filtered = arrOfRect.filter(function (elem) {
